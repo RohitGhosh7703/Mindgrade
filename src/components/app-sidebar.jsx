@@ -76,8 +76,8 @@ export function AppSidebar() {
       <div className="flex flex-col gap-3 items-center justify-end p-4">
         <div className="flex flex-row justify-start items-center gap-3   w-full">
 
-      <button className="flex flex-row justify-center items-center p-[3px] h-[35px] w-[45px] bg-gradient-to-r from-[#FC8026] to-[#014EE6] rounded-2xl">
-      <div className="flex flex-row justify-center items-center bg-white py-1 px-2 rounded-2xl">
+      <button className="flex flex-row justify-center items-center p-[3px] h-[35px] w-[45px] bg-gradient-to-r from-[#FC8026] to-[#014EE6] rounded-xl">
+      <div className="flex flex-row justify-center items-center bg-white py-3 px-2 rounded-xl h-[34px] w-[45px]">
         <Image
           src={Uploadsvg}
           alt="Upload"
